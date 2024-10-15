@@ -58,5 +58,5 @@ scripts.js: Lógica de autenticación, almacenamiento y operaciones bancarias.
 - Contribuciones
 - Si encuentras un error o deseas mejorar este proyecto, ¡no dudes en enviar un Pull Request o abrir un Issue!
 
-### Autor:  Fernando D. Quevedo.
+* Autor:  Fernando D. Quevedo.
 
