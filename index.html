@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar sesión / Registro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="loginForm" class="card mt-5">
+            <div class="card-body">
+                <h5 class="card-title">Iniciar sesión</h5>
+                <form id="login">
+                    <div class="form-group">
+                        <label for="username">Usuario:</label>
+                        <input type="text" class="form-control" id="username" required>
+                        <div class="invalid-feedback">Por favor ingresa tu nombre de usuario.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Clave:</label>
+                        <input type="password" class="form-control" id="password" required>
+                        <div class="invalid-feedback">La clave debe contener mayúsculas, minúsculas y mínimo un número.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    <button type="button" id="registerButton" class="btn btn-link">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
