@@ -23,7 +23,7 @@ Este proyecto es una aplicación web simple que permite a los usuarios registrar
 
 2. Abre el archivo index.html en tu navegador para iniciar la aplicación.
 
-##. Uso
+## Uso
 
 1. Página de Inicio de Sesión
 La página de inicio de sesión donde el usuario puede iniciar sesión o registrarse.
@@ -47,15 +47,16 @@ styles.css: Estilos personalizados para la aplicación.
 scripts.js: Lógica de autenticación, almacenamiento y operaciones bancarias.
 
 ## Notas Importantes
-# Errores Intencionales: Este proyecto contiene errores de HTML, CSS y JavaScript intencionales para ser detectados y corregidos como parte del aprendizaje.
+1. Errores Intencionales: Este proyecto contiene errores de HTML, CSS y JavaScript intencionales para ser detectados y corregidos como parte del aprendizaje.
 
-Encriptación Básica: La encriptación de la contraseña utiliza btoa, que es un método básico. Esto debe mejorarse para entornos de producción.
-Uso de LocalStorage: Almacenar datos sensibles en localStorage no es recomendable para aplicaciones reales. Este proyecto es solo un ejercicio educativo.
-Próximos Pasos
-Mejorar la encriptación de contraseñas.
-Implementar una base de datos segura para almacenamiento de usuarios y transacciones.
-Corregir los errores intencionales y mejorar la validación de datos.
-Contribuciones
-Si encuentras un error o deseas mejorar este proyecto, ¡no dudes en enviar un Pull Request o abrir un Issue!
+2. Encriptación Básica: La encriptación de la contraseña utiliza btoa, que es un método básico. Esto debe mejorarse para entornos de producción.
+3. Uso de LocalStorage: Almacenar datos sensibles en localStorage no es recomendable para aplicaciones reales. Este proyecto es solo un ejercicio educativo.
+## Próximos Pasos
+- Mejorar la encriptación de contraseñas.
+- Implementar una base de datos segura para almacenamiento de usuarios y transacciones.
+- Corregir los errores intencionales y mejorar la validación de datos.
+- Contribuciones
+- Si encuentras un error o deseas mejorar este proyecto, ¡no dudes en enviar un Pull Request o abrir un Issue!
 
+# Autor:  Fernando D. Quevedo.
 
