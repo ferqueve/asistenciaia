@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Panel de Administración</title>
+    <title>Panel</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Bienvenido a tu panel:</h1>
+        <h1>Bienvenido a tu panel</h1>
+        <button id="logoutButton" class="btn btn-danger mb-3">Cerrar Sesión</button> <!-- Botón de cerrar sesión -->
         <div id="accountInfo" class="card mt-4">
             <div class="card-body">
-                <p><strong>Previous Balance:</strong> $<span id="previousBalance"></span></p>
-                <p><strong>Saldo Actual :</strong> $<span id="currentBalance"></span></p>
+                <p><strong>Saldo Anterior:</strong> $<span id="previousBalance"></span></p>
+                <p><strong>Saldo Actual:</strong> $<span id="currentBalance"></span></p>
             </div>
         </div>
         <div id="transactions" class="mt-4">
-            <h4>Transaction History</h4>
+            <h4>Histórico de transacciones</h4>
             <ul id="transactionList" class="list-group">
-                <!-- Los elementos de las transacciones se mostrarán aquí -->
+                <!-- Transaction items will be listed here -->
             </ul>
         </div>
         <div class="mt-4">
@@ -26,6 +27,6 @@
             <button onclick="debitAccount(50)">Débito $50</button>
         </div>
     </div>
-    <script src="js/scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
